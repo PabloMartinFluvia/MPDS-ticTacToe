@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<movements>
+    <movement id="m1" color="x">
+        <target row="1" column="1"/>
+    </movement>
+    <movement id="m2" color="o">
+        <target row="1" column="2"/>
+    </movement>
+    <movement id="m3" color="x">
+        <target row="2" column="2"/>
+    </movement>
+    <movement id="m4" color="o">
+        <target row="3" column="3"/>
+    </movement>
+    <movement id="m5" color="x">
+        <target row="1" column="3"/>
+    </movement>
+    <movement id="m6" color="o">
+        <target row="3" column="1"/>
+    </movement>
+    <movement id="m7" color="x">
+        <target row="3" column="2"/>
+        <origin idref="m1"/>
+    </movement>
+    <movement id="m8" color="o">
+        <target row="1" column="1"/>
+        <origin idref="m2"/>
+    </movement>
+    <movement id="m9" color="x">
+        <target row="1" column="2"/>
+        <origin idref="m5"/>
+    </movement>
+</movements>
