@@ -1,0 +1,49 @@
+- color: X
+  target:
+    row: 1
+    column: 1
+  origin:
+- color: O
+  target:
+    row: 1
+    column: 2
+  origin:
+- color: X
+  target:
+    row: 2
+    column: 2
+  origin:
+- color: O
+  target:
+    row: 3
+    column: 3
+- color: X
+  target:
+    row: 1
+    column: 3
+  origin:
+- color: O
+  target:
+    row: 3
+    column: 1
+- color: X
+  target:
+    row: 3
+    column: 2
+  origin:
+    row: 1
+    column: 1
+- color: O
+  target:
+    row: 1
+    column: 1
+  origin:
+    row: 1
+    column: 2
+- color: X
+  target:
+    row: 1
+    column: 2
+  origin:
+    row: 1
+    column: 3
